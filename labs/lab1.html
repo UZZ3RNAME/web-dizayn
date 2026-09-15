@@ -1,48 +1,74 @@
-<h2>Форма реєстрації</h2>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №1. Основи HTML</title>
+</head>
+<body>
 
-<form action="https://webhook.site/a516c9f0-a2f5-42c8-a947-2812ed73015b" method="post">
+    <header>
+        <h1>Лабораторна робота №1. Основи HTML</h1>
 
-    <p>
-        <label for="firstname">Ім'я:</label>
-        <input type="text" id="firstname" name="firstname" required>
-    </p>
+        <nav>
+            <a href="../index.html">Головна</a>
+        </nav>
+    </header>
 
-    <p>
-        <label for="lastname">Прізвище:</label>
-        <input type="text" id="lastname" name="lastname" required>
-    </p>
+    <main>
+        <h2>Форма реєстрації</h2>
 
-    <p>
-        <label for="email">Електронна пошта:</label>
-        <input type="email" id="email" name="email" required>
-    </p>
+        <form action="https://webhook.site/a516c9f0-a2f5-42c8-a947-2812ed73015b" method="post">
 
-    <p>
-        <label for="password">Пароль:</label>
-        <input type="password" id="password" name="password" required>
-    </p>
+            <p>
+                <label for="firstname">Ім'я:</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </p>
 
-    <p>
-        <label for="password_confirm">Підтвердження паролю:</label>
-        <input type="password" id="password_confirm" name="password_confirm" required>
-    </p>
+            <p>
+                <label for="lastname">Прізвище:</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </p>
 
-    <p>
-        <label for="birthdate">Дата народження:</label>
-        <input type="date" id="birthdate" name="birthdate">
-    </p>
+            <p>
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
 
-    <p>
-        <label for="gender">Стать:</label>
-        <select id="gender" name="gender">
-            <option value="male">Чоловіча</option>
-            <option value="female">Жіноча</option>
-            <option value="other">Інше</option>
-        </select>
-    </p>
+            <p>
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+            </p>
 
-    <p>
-        <input type="submit" value="Зареєструватися">
-    </p>
+            <p>
+                <label for="password_confirm">Підтвердження паролю:</label>
+                <input type="password" id="password_confirm" name="password_confirm" required>
+            </p>
 
-</form>
+            <p>
+                <label for="birthdate">Дата народження:</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </p>
+
+            <p>
+                <label for="gender">Стать:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Чоловіча</option>
+                    <option value="female">Жіноча</option>
+                    <option value="other">Інше</option>
+                </select>
+            </p>
+
+            <p>
+                <input type="submit" value="Зареєструватися">
+            </p>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>Лабораторна робота №1</p>
+    </footer>
+
+</body>
+</html>
