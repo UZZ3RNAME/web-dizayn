@@ -61,6 +61,7 @@ footer a {
 table {
     width: 100%;
     border-collapse: collapse;
+    table-layout: fixed;
     background-color: white;
     margin-top: 20px;
 }
@@ -75,25 +76,26 @@ table td {
 }
 
 table th {
-    background-color: #eaeaea;
+    background-color: #e5e5e5;
     font-weight: bold;
 }
 
 table .date-head {
-    background-color: #ddd;
+    background-color: #dcdcdc;
     font-weight: bold;
+    height: 30px;
 }
 
 table .day-cell {
     background-color: #e5e5e5;
     font-weight: bold;
     font-size: 15px;
-    width: 50px;
+    width: 55px;
 }
 
 table td {
+    background-color: white;
     text-align: left;
-    background-color: #fff;
 }
 
 table tr:hover td {
